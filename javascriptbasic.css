@@ -13,10 +13,10 @@
     padding: 15px;
     border-radius: 15px;
     color: silver;
+    margin-bottom:10px;
     background-color: #cf2f36;
    }
    #navigation{
-    height: 300px;
     width: 200px;
     display: inline-block;
     vertical-align: top;
@@ -25,23 +25,46 @@
     background-color: #2a7d8c;
    }
    #main_content{
-    height: 400px;
     width: 660px;
     display: inline-block;
     margin-left: 10px;
-    padding-left: 20px;
-    border-radius: 15px;
-    background-color: #0e1822;
-   }
-   #advertisement{
     padding: 20px;
     border-radius: 15px;
+    background-color: #0e1822;
+    color: silver;
+   }
+   #advertisement{
+    padding: 15px;
+    border-radius: 15px;
+    margin-top:10px;
     background-color: #525d6f;
    }
    ul{
        margin-left: 10px;
        list-style-position: inside;
    }
-   h4{
-    list-style-type: none;
-}
+    
+    #advertisement a {
+        color:#40a8c2;
+    }
+    #navigation a {
+        color:#40a8c2;
+    }
+    #holi {
+        list-style-type: none;
+    }
+    #main_content a{
+        color: #40a8c2;
+    }
+  .bullets li{
+    list-style-position: initial;
+  }
+
+  #main_content span{
+      color: blueviolet;
+  }
+        
+    
+
+
+    
