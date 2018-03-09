@@ -1,0 +1,47 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+   }
+   #wrapper{
+    width: 950px;
+    background-color: #1b335d;
+    margin: 0px auto;
+    padding: 15px;
+   }
+   #header{
+    padding: 15px;
+    border-radius: 15px;
+    color: silver;
+    background-color: #cf2f36;
+   }
+   #navigation{
+    height: 300px;
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #2a7d8c;
+   }
+   #main_content{
+    height: 400px;
+    width: 660px;
+    display: inline-block;
+    margin-left: 10px;
+    padding-left: 20px;
+    border-radius: 15px;
+    background-color: #0e1822;
+   }
+   #advertisement{
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #525d6f;
+   }
+   ul{
+       margin-left: 10px;
+       list-style-position: inside;
+   }
+   h4{
+    list-style-type: none;
+}
